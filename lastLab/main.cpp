@@ -23,9 +23,10 @@ int main() {
     if(a == "jack") cout << "Hello Jack" << endl;
     else if(a == "sam") cout << "Hello sam" << endl;
     else if(a == "roman") cout << "Hello Roman" << endl;
+    else if(a == "morty") cout << "Hello Morty" << endl;
     else cout << "Hello Guest" << endl;
     
-    cout << "loading...";
+    cout << "Your profile is loading...";
     
     cout << endl << endl;
     return 0;

@@ -7,9 +7,24 @@
 //
 
 #include <iostream>
+#include <string>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main() {
+    
+    string a;
+    
+    cout << "Profiles: Jack, Sam, Roman" << endl << endl;
+    cout << "Input of your profile's name:" << endl << endl;
+    getline(cin,a);
+    cout << endl;
+    
+    if(a == "jack") cout << "Hello Jack" << endl;
+    else if(a == "Sam") cout << "Hello Sam" << endl;
+    else if(a == "roman") cout << "Hello Roman" << endl;
+    else cout << "Hello Guest";
+    
+    cout << endl << endl;
     return 0;
 }

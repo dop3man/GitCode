@@ -21,9 +21,11 @@ int main() {
     cout << endl;
     
     if(a == "jack") cout << "Hello Jack" << endl;
-    else if(a == "Sam") cout << "Hello Sam" << endl;
+    else if(a == "sam") cout << "Hello sam" << endl;
     else if(a == "roman") cout << "Hello Roman" << endl;
-    else cout << "Hello Guest";
+    else cout << "Hello Guest" << endl;
+    
+    cout << "loading...";
     
     cout << endl << endl;
     return 0;
